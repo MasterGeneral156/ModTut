@@ -1,0 +1,22 @@
+/*
+ * Loads called methods/classes on both client AND server.
+ */
+package themastergeneral.modtut.proxy;
+
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+public class CommonProxy {
+	public void preInit(FMLPreInitializationEvent e) {
+		
+	}
+    public void init(FMLInitializationEvent e) {
+    	
+    }
+
+    public void postInit(FMLPostInitializationEvent e) {
+    	
+    }
+}
